@@ -1,6 +1,5 @@
 function markAsDone(todos) {
-    return todos;
-
+  return todos;
 }
 
 
