@@ -1,10 +1,3 @@
 function markAsDone(todos) {
-  return todos.map(todo =>) {
-    return {
-      ...todo,
-      description: 'done - ' + todo.description
-    };
-  });
+  return todos.map(todo => `done - ${todo}`);
 }
-
-
