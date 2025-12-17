@@ -1,5 +1,9 @@
 function markAsDone(todos) {
-  return todos;
+  return todos.map(todo => {
+    return {
+      ...todo,
+      description: 'done - ' + todo.description
+    };
+  });
 }
-
 
